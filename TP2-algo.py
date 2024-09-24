@@ -1,7 +1,7 @@
 """
 Exercice 1  
 """
-a = int(input("Entrez la valeur : "))
+n = int(input("Entrez la valeur : "))
 
 def premier(n):
     if n%2 == 0:
@@ -12,7 +12,7 @@ def premier(n):
     return True
 
 
-print(premier(a))
+print(premier(n))
 """
 Exercice 2
 """
