@@ -51,6 +51,24 @@ def exo3():
     print(list3)
 exo3()
 
+"""
+Exercice 4 
+"""
+
+while True : 
+    try : 
+        choix = int(input("Vous préférez une borne (1) ou deux (2) ? : "))
+        if choix == 2 :
+            exo3()
+            break
+        elif choix == 1 :
+            borne_min = int(input("Entrez la borne minimale : "))
+            exo2(borne_min)
+            break
+        else : 
+            print("Erreur")
+    except ValueError:
+        print('Erreur :(')
 
 
 
